@@ -23,7 +23,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-newbie-qr-code-component)
+- Solution URL: [GitHub](https://github.com/jsupasil/frontend-mentor-newbie-blog-preview-card)
 - Live Site URL: [Vercel](https://frontend-mentor-newbie-qr-code-component.vercel.app/)
 
 ## My process

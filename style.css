@@ -41,6 +41,13 @@
   border-radius: 20px;
   padding: 24px;
   gap: 24px;
+  box-shadow: 8px 8px var(--black);
+}
+
+.container:hover {
+  position: relative;
+  top: -8px;
+  left: -8px;
   box-shadow: 16px 16px var(--black);
 }
 
