@@ -26,6 +26,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        background-color: rgb(254, 255, 196);
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -34,26 +35,44 @@
   </head>
   <body>
     <main class="main-page">
-      <div class="content-container">
-        <img src="./assets/images/illustration-article.svg" />
-      </div>
-      <p class="content-type">Learning</p>
-      <p class="content-date">Published 21 Dec 2023</p>
-      <p clss="content-main">
-        HTML & CSS foundations These languages are the backbone of every
-        website, defining structure, content, and presentation.
-      </p>
-      <div>
-        <img src="./assets/images/image-avatar.webp" />
-        <p class="content-author">Greg Hooper</p>
+      <div class="container">
+        <img
+          src="./assets/images/illustration-article.svg"
+          class="blog-image"
+        />
+        <div class="content">
+          <p class="category">Learning</p>
+          <p class="publish-date">Published 21 Dec 2023</p>
+          <a
+            class="title"
+            href="https://www.youtube.com/watch?v=a_iQb1lnAEQ"
+            target="_blank"
+          >
+            HTML & CSS foundations
+          </a>
+          <p class="description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+
+        <div class="author">
+          <img src="./assets/images/image-avatar.webp" class="user-pic" />
+          <p class="author-name">Greg Hooper</p>
+        </div>
       </div>
     </main>
 
     <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/jsupasil" target="_blank"
+        >Jirayu Supasil</a
+      >.
     </footer>
   </body>
 </html>
